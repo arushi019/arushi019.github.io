@@ -18,11 +18,11 @@ body {
 a { 
     transition: all 0.3s ease; 
     text-decoration: none;
-    color: #EE00EE;
+    color: #EEEE00;
 }
 
 ul { padding: 0; }
-a:hover { text-decoration: none; color: #FFAAFF; }
+a:hover { text-decoration: none; color: #CCFF00; }
 button:focus { outline: none; }
 p { line-height: 1.9; }
 .tm-logo { margin-right: 20px; }
