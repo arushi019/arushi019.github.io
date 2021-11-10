@@ -1,99 +1,794 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Arushi Chauhan</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" /> <!-- https://fonts.google.com/ -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" /> <!-- https://getbootstrap.com/ -->
-    <link href="fontawesome/css/all.min.css" rel="stylesheet" /> <!-- https://fontawesome.com/ -->
-    <link href="css/templatemo-diagoona.css" rel="stylesheet" />
-<!--
 
-TemplateMo 550 Diagoona
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Arushi Chauhan</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-https://templatemo.com/tm-550-diagoona
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
--->
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
 </head>
 
 <body>
-    <div class="tm-container">        
-        <div>
-            <div class="tm-row pt-4">
-                <div class="tm-col-left">
-                    <div class="tm-site-header media">
-                        <i class="fas fa-umbrella-beach fa-3x mt-1 tm-logo"></i>
-                        <div class="media-body">
-                            <h1 class="tm-sitename text-uppercase">Arushi Chauhan</h1>
-                        </div>        
-                    </div>
-                </div>
-                <div class="tm-col-right">
-                    <nav class="navbar navbar-expand-lg" id="tm-main-nav">
-                        <button class="navbar-toggler toggler-example mr-0 ml-auto" type="button" 
-                            data-toggle="collapse" data-target="#navbar-nav" 
-                            aria-controls="navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span><i class="fas fa-bars"></i></span>
-                        </button>
-                        <div class="collapse navbar-collapse tm-nav" id="navbar-nav">
-                            <ul class="navbar-nav text-uppercase">
-                                <li class="nav-item active">
-                                    <a class="nav-link tm-nav-link" href="#">About <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link tm-nav-link" href="papers.html">Publications</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link tm-nav-link" href="projects.html">Projects</a>
-                                </li>                            
-                                <li class="nav-item">
-                                    <a class="nav-link tm-nav-link" href="blog.html">Blog</a>
-                                </li>
-                            </ul>                            
-                        </div>                        
-                    </nav>
-                </div>
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Timeline</a></li>
+            <li><a class="smoothscroll" href="#publications">Publications</a></li>
+            <li><a class="smoothscroll" href="#projects">Projects</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">I'm Arushi Chauhan</h1>
+            <h3>I'm a <span>CS engineer</span> working at Goldman Sachs and an <span>AI researcher</span> excited to carve my niche in the world. Take a peek at my <a class="smoothscroll" href="#resume">journey</a>
+            and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://www.facebook.com/arushi373"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="https://www.twitter.com/arushi1803"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/arushi-chauhan-b60921129"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://www.instagram.com/artpencilbro/"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>I am a Bengaluru based analyst working in the Tech Division at Goldman Sachs. Previously, I interned at Google and Tessel@Rails Girls Summer of Code program. I am also an AI researcher, specialising in neural architecture search which is kind of like AutoML but for convolutional neural networks. You can check out my <a class="smoothscroll" href="#publications">publications</a> here. I completed my bachelors in CS from IIIT Delhi in 2020 and have been working since then. I am also a core member of Women in Machine Learning and Data Science (WiMLDS) chapter in Delhi and have a bit of mentoring experience on my hands. I like to paint and watch Netflix during my free time. On some days, I like to travel as well. 
+            </p>
+
+            <div class="row">
+               <div class="columns download">
+                  <p>
+                     <a href="https://drive.google.com/file/d/1uOMiT7O-aNMrY5eu47QqBkSpFM9xXvEx/view?usp=sharing" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <div class="row education">
+         <div class="three columns header-col">
+            <h1><span>Feb 2021</span></h1>
+         </div>
+         <div class="nine columns main-col">
+            <div class="row item">
+               <p>Presented my NEAP-F paper in AAAI 2021!</p>
             </div>
-            
-            <div class="tm-row">
-                <div class="tm-col-left"></div>
-                <main class="tm-col-right">
-                    <section class="tm-content">
-                        <h2 class="mb-5 tm-content-title">About me</h2>
-                        <p class="mb-5">
-                        	Hi! I am Arushi Chauhan, a computer science graduate from IIIT Delhi. I am currently working at Goldman Sachs, Bengaluru as an analyst and I previously interned at Google, Bengaluru and Tessel under Rails Girls Summer of Code 2018. I was also a research intern at Delhi Technological University in 2017, and I have a research experience of 1.5 years working on my bachelor's thesis and other projects. My research interests lie in deep learning and computer vision, with <u>neural architecture search</u> being my niche (HMU if you want to know/discuss/rant about NAS papers!). Work aside, I love travelling, painting, memes, calligraphy and I am a huge fan of Marvel comics. You can find me here:     
-                        </p>
-                        
-                        <p class="mb-5">LinkedIn: 
-                        	<a href="linkedin.com/in/arushi-chauhan-b60921129/">arushi-chauhan-b60921129/</a>
-                        <br>GitHub: 
-                        	<a href="github.com/arushi019">arushi019</a>
-                        <br>Twitter: 
-                        	<a href="twitter.com/arushi1803">arushi1803</a>
-                        <br>Google Scholar:
-                        	<a href="https://scholar.google.com/citations?user=WMed-rcAAAAJ&hl=en&oi=ao">Arushi Chauhan</a>
-                        <br>Email: arushi16019@iiitd.ac.in</p>  
-
-                    </section>
-                </main>
+         </div>
+         <div class="three columns header-col">
+            <h1><span>Nov 2020</span></h1>
+         </div>
+         <div class="nine columns main-col">
+            <div class="row item">
+               <p>NEAP-F selected to be published in AAAI 2021! This paper was based on my bachelor's thesis work on predicting
+                  performance of neural networks. </p>
             </div>
-        </div>        
+         </div>
+         <div class="three columns header-col">
+            <h1><span>Aug 2020</span></h1>
+         </div>
+         <div class="nine columns main-col">
+            <div class="row item">
+               <p>Formally graduated from IIIT Delhi, obtaining Bachelors in Technology with Honors.</p>
+            </div>
+         </div>
+         <div class="three columns header-col">
+            <h1><span>Jun 2020</span></h1>
+         </div>
+         <div class="nine columns main-col">
+            <div class="row item">
+               <p>Started working at Goldman Sachs in WFH</p>
+            </div>
+         </div>
+         <div class="three columns header-col">
+            <h1><span>May 2020</span></h1>
+         </div>
+         <div class="nine columns main-col">
+            <div class="row item">
+               <p>8th semester finally over!</p>
+            </div>
+         </div>
+         <div class="three columns header-col">
+            <h1><span>Jan 2020</span></h1>
+         </div>
+         <div class="nine columns main-col">
+            <div class="row item">
+               <p><span>&bull;</span> Started working on recipe generation project. Using a single image of a dish, we can identify the dish name, generate its preparation instructions and video too!
+               <br><span>&bull;</span> Volunteered for college cultural fest Odyssey. Quite a learning experience on crowd management and cold calling sponsors</p>
+            </div>
+         </div>
+         <div class="three columns header-col">
+            <h1><span>Aug 2019</span></h1>
+         </div>
+         <div class="nine columns main-col">
+            <div class="row item">
+               <p><span>&bull;</span> Started working on regex generation project. The aim was to provide a natural language description as input and output corresponding regex. Got to read papers by Regina Barzilay!
+               <br><span>&bull;</span> Started working on independent project on video question answering systems
+               <br><span>&bull;</span> Joined Women in Machine Learning and Data Science as core member :)
+               <br><span>&bull;</span> Got elected as student council member in college
+               </p>
+            </div>
+         </div>
+         <div class="three columns header-col">
+            <h1><span>Jul 2019</span></h1>
+         </div>
+         <div class="nine columns main-col">
+            <div class="row item">
+               <p><span>&bull;</span> Got job offer from Goldman Sachs
+               <br><span>&bull;</span> Completed 16 week internship stint at Google India with Cloud Search team</p>
+            </div>
+         </div>
+         <div class="three columns header-col">
+            <h1><span>Jan 2019</span></h1>
+         </div>
+         <div class="nine columns main-col">
+            <div class="row item">
+               <p>Started working on bachelor's thesis on neural architecture search!</p>
+            </div>
+         </div>
+         <div class="three columns header-col">
+            <h1><span>Dec 2019</span></h1>
+         </div>
+         <div class="nine columns main-col">
+            <div class="row item">
+               <p>Completed a hectic semester with artificial intelligence, machine learning and image analysis courses</p>
+            </div>
+         </div>
+         <div class="three columns header-col">
+            <h1><span>Oct 2019</span></h1>
+         </div>
+         <div class="nine columns main-col">
+            <div class="row item">
+               <p>Attended GoLab conference in Florence, Italy, thanks to Rails Girls Summer of Code!</p>
+            </div>
+         </div>
+         <div class="three columns header-col">
+            <h1><span>Sep 2018</span></h1>
+         </div>
+         <div class="nine columns main-col">
+            <div class="row item">
+               <p>Completed 12 weeks internship at Tessel with Rails Girls Summer of Code</p>
+            </div>
+         </div>
+         <div class="three columns header-col">
+            <h1><span>Jul 2018</span></h1>
+         </div>
+         <div class="nine columns main-col">
+            <div class="row item">
+               <p>Completed 80 hours of teaching basic maths and computer science to 9th standard students at Patratu School of Economics</p>
+            </div>
+         </div>
+         <div class="three columns header-col">
+            <h1><span>May 2018</span></h1>
+         </div>
+         <div class="nine columns main-col">
+            <div class="row item">
+               <p>Attended Facebook F8 conference in California, US. My first industry experience!</p>
+            </div>
+         </div>
+         <div class="three columns header-col">
+            <h1><span>Jan 2018</span></h1>
+         </div>
+         <div class="nine columns main-col">
+            <div class="row item">
+               <p>Presented my first research paper in NFEST 2018!</p>
+            </div>
+         </div>
+         <div class="three columns header-col">
+            <h1><span>Sep 2017</span></h1>
+         </div>
+         <div class="nine columns main-col">
+            <div class="row item">
+               <p>My first paper on AI fault diagnosis system for electrostatic precipitator selected to be published in NFEST 2018</p>
+            </div>
+         </div>
+         <div class="three columns header-col">
+            <h1><span>Jul 2017</span></h1>
+         </div>
+         <div class="nine columns main-col">
+            <div class="row item">
+               <p>Completed research internship at Delhi Techonological University, worked on fault diagnonsis systems
+               for electrostatic precipitators</p>
+            </div>
+         </div>
+         <div class="three columns header-col">
+            <h1><span>Nov 2016</span></h1>
+         </div>
+         <div class="nine columns main-col">
+            <div class="row item">
+               <p><span>&bull;</span>Built my first AI tic-tac-toe bot!
+               <br><span>&bull;</span>Built obstacle avoiding robot using Raspberry PI 3
+               </p>
+            </div>
+         </div>
+         <div class="three columns header-col">
+            <h1><span>Aug 2016</span></h1>
+         </div>
+         <div class="nine columns main-col">
+            <div class="row item">
+               <p>Joined IIIT Delhi as an undergraduate in computer science</p>
+            </div>
+         </div>
+      </div>
 
-        
+   </section> <!-- Resume Section End-->
 
-        <!-- Diagonal background design -->
-        <div class="tm-bg">
-            <div class="tm-bg-left"></div>
-            <div class="tm-bg-right"></div>
-        </div>
-    </div>
 
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.backstretch.min.js"></script>
-    <script src="js/templatemo-script.js"></script>
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check Out Some of My Works.</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/portfolio/coffee.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Coffee</h5>
+                              <p>Illustrration</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/portfolio/console.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Console</h5>
+                              <p>Web Development</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="images/portfolio/judah.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Judah</h5>
+                              <p>Webdesign</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="images/portfolio/into-the-light.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Into The Light</h5>
+                              <p>Photography</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-05" title="">
+                        <img alt="" src="images/portfolio/farmerboy.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Farmer Boy</h5>
+                              <p>Branding</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-06" title="">
+                        <img alt="" src="images/portfolio/girl.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Girl</h5>
+                              <p>Photography</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-07" title="">
+                        <img alt="" src="images/portfolio/origami.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Origami</h5>
+                              <p>Illustrration</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-08" title="">
+                        <img alt="" src="images/portfolio/retrocam.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Retrocam</h5>
+                              <p>Web Development</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div>  <!-- item end -->
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Coffee Cup</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Console</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Web Development</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Judah</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Into the Light</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 End -->
+
+         <div id="modal-05" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Farmer Boy</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-05 End -->
+
+         <div id="modal-06" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Girl</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-06 End -->
+
+         <div id="modal-07" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Origami</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-07 End -->
+
+         <div id="modal-08" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Retrocam</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+
+   <!-- Call-To-Action Section
+   ================================================== -->
+   <section id="call-to-action">
+
+      <div class="row">
+
+         <div class="two columns header-col">
+
+            <h1><span>Get Hosting.</span></h1>
+
+         </div>
+
+         <div class="seven columns">
+
+            <h2><span class="lead">Unde Omnis Iste</span></h2>
+            <p><span class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae. </span></p>
+
+         </div>
+
+         <div class="three columns action">
+
+
+
+         </div>
+
+      </div>
+
+   </section> <!-- Call-To-Action Section End-->
+
+
+   <!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
+
+      <div class="text-container">
+
+         <div class="row">
+
+            <div class="two columns header-col">
+
+               <h1><span>Client Testimonials</span></h1>
+
+            </div>
+
+            <div class="ten columns flex-container">
+
+               <div class="flexslider">
+
+                  <ul class="slides">
+
+                     <li>
+                        <blockquote>
+                           <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
+                           to do what you believe is great work. And the only way to do great work is to love what you do.
+                           If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+                           </p>
+                           <cite>Steve Jobs</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                     <li>
+                        <blockquote>
+                           <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                           Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                           nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                           </p>
+                           <cite>Mr. Adobe</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                  </ul>
+
+               </div> <!-- div.flexslider ends -->
+
+            </div> <!-- div.flex-container ends -->
+
+         </div> <!-- row ends -->
+
+       </div>  <!-- text-container ends -->
+
+   </section> <!-- Testimonials Section End-->
+
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               <h1><span>Get In Touch.</span></h1>
+
+            </div>
+
+            <div class="ten columns">
+
+                  <p class="lead">I would like to hear from you! You can contact me through the form here or via social media links given. 
+                  </p>
+
+            </div>
+
+         </div>
+
+         <div class="row">
+
+            <div class="eight columns">
+
+               <!-- form -->
+               <form action="" method="post" id="contactForm" name="contactForm">
+					<fieldset>
+
+                  <div>
+						   <label for="contactName">Name <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactName" name="contactName">
+                  </div>
+
+                  <div>
+						   <label for="contactEmail">Email <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                  </div>
+
+                  <div>
+						   <label for="contactSubject">Subject</label>
+						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                  </div>
+
+                  <div>
+                     <label for="contactMessage">Message <span class="required">*</span></label>
+                     <textarea cols="50" rows="10" id="contactMessage" name="contactMessage"></textarea>
+                  </div>
+
+                  <div>
+                     <button class="submit">Submit</button>
+                     <span id="image-loader">
+                        <img alt="" src="images/loader.gif">
+                     </span>
+                  </div>
+
+					</fieldset>
+				   </form> <!-- Form End -->
+
+               <!-- contact-warning -->
+               <div id="message-warning"> Error boy</div>
+               <!-- contact-success -->
+				   <div id="message-success">
+                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				   </div>
+
+            </div>
+
+
+            <aside class="four columns footer-widgets">
+
+               <div class="widget widget_contact">
+
+					<ul class="social">
+                  <li><a href="https://www.facebook.com/arushi373"> <h4>Facebook</h4> <i class="fa fa-facebook"></i></a></li>
+                  <li><a href="https://www.twitter.com/arushi1803"> <h4>Twitter</h4> <i class="fa fa-twitter"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/arushi-chauhan-b60921129"> <h4>LinkedIn</h4> <i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="https://www.instagram.com/artpencilbro/"> <h4>My Instagram Art Page</h4> <i class="fa fa-instagram"></i></a></li>
+                  <li><a href="https://scholar.google.com/citations?user=WMed-rcAAAAJ&hl=en&oi=ao"><h4>Google Scholar</h4></a></li>
+               </ul>
+
+				   </div>
+
+            </aside>
+
+      </div>
+
+   </section> <!-- Contact Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2014 CeeVee</li>
+               <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li>   
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
 </body>
+
 </html>
